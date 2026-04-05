@@ -98,7 +98,7 @@ const Dashboard = ({ setAuth, theme, toggleTheme }) => {
         <nav className="bg-[#0f172a]/80 backdrop-blur-xl border-b border-slate-800 px-6 py-4 flex justify-between items-center sticky top-0 z-50">
           <div className="flex items-center gap-3">
               <div className="w-9 h-9 bg-gradient-to-tr from-violet-600 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-[0_0_15px_rgba(124,58,237,0.4)]">P</div>
-              <h1 className="text-xl font-bold text-white">PrimeTrade <span className="text-violet-500 text-xs tracking-wider">CYBER</span></h1>
+              <h1 className="text-xl font-bold text-white">Synapse <span className="text-violet-500 text-xs tracking-wider">CYBER</span></h1>
           </div>
           <div className="flex items-center gap-4">
               
@@ -160,7 +160,7 @@ const Dashboard = ({ setAuth, theme, toggleTheme }) => {
       <nav className="bg-white/80 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex justify-between items-center sticky top-0 z-50">
         <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center text-white font-bold text-lg">P</div>
-            <h1 className="text-xl font-bold text-slate-900">PrimeTrade <span className="text-blue-600 text-xs">AI</span></h1>
+            <h1 className="text-xl font-bold text-slate-900">Synapse <span className="text-blue-600 text-xs">AI</span></h1>
         </div>
         <div className="flex items-center gap-4">
             

@@ -1,13 +1,13 @@
-# Dependencies
-node_modules/
-package-lock.json
-
-# Environment variables
 .env
-
-# Build outputs
+_env
+*.env
+node_modules/
+client/node_modules/
+server/node_modules/
 dist/
 build/
-
-# System files
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

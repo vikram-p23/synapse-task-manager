@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -9,9 +10,9 @@ app.use(express.json());
 app.use(cors());
 
 // --- CONFIGURATION ---
-const JWT_SECRET = "vikram_secret_key_123"; 
+const JWT_SECRET = process.env.JWT_SECRET; 
 // 👇 PASTE YOUR LONG MONGODB CONNECTION STRING INSIDE THESE QUOTES 👇
-const MONGO_URI = "mongodb+srv://Vikram:Vikram1217@cluster0.annfp9h.mongodb.net/?appName=Cluster0"; 
+const MONGO_URI = process.env.MONGO_URI;
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('✅ MongoDB Connected'))

@@ -1,0 +1,66 @@
+# Synapse Task Manager
+
+Synapse is a modern, full-stack task management application designed to help users organize their workflow efficiently. Built with the MERN stack, it features secure user authentication and a responsive, dynamic UI that lets users toggle between a "Clean AI" Light Mode and a "Cyberpunk" Dark Mode.
+
+## 🚀 Features
+
+* **Secure Authentication:** User registration and login using JSON Web Tokens (JWT) and bcrypt password hashing.
+* **Task Management (CRUD):** Users can create, read, update (mark as complete/pending), and delete tasks.
+* **Priority Levels:** Assign low, medium, or high priority to tasks.
+* **Dynamic Theming:** Seamlessly toggle between two distinct visual experiences:
+    * ☀️ **Clean AI (Light Mode):** A minimalist, data-science-inspired interface.
+    * 🌙 **Cyberpunk (Dark Mode):** A vibrant, neon-accented dark theme.
+* **Progress Tracking:** Visual progress bar calculating the percentage of completed tasks.
+* **Search & Filter:** Easily find specific tasks or filter by completion status.
+* **Protected Routes:** Client-side route protection utilizing React Router.
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+* React (via Vite)
+* Tailwind CSS (Styling & Theming)
+* Axios (HTTP client)
+* React Router DOM (Navigation)
+* JWT Decode (Token handling)
+
+**Backend:**
+* Node.js & Express.js
+* MongoDB & Mongoose (Database & ODM)
+* JSON Web Tokens (JWT) (Authentication)
+* Bcrypt.js (Password encryption)
+
+## ⚙️ Local Setup & Installation
+
+### Prerequisites
+Make sure you have Node.js and MongoDB installed on your machine.
+
+### 1. Clone the repository
+git clone https://github.com/vikram-p23/synapse-task-manager.git
+cd synapse-task-manager
+
+### 2. Backend Setup
+Navigate to the server directory, install dependencies, and set up your environment variables.
+
+# Install backend dependencies
+npm install express mongoose cors jsonwebtoken bcryptjs dotenv
+
+Create a `.env` file in the root of your backend directory and add the following:
+# .env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+Start the backend server:
+node server.js
+# The server will run on http://localhost:5000
+
+### 3. Frontend Setup
+Open a new terminal window, navigate to the client directory, and install the dependencies.
+
+# Install frontend dependencies
+npm install
+
+# Start the Vite development server
+npm run dev
+
+
+

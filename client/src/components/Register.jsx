@@ -74,7 +74,7 @@ const Register = ({ setAuth, theme, toggleTheme }) => {
                 </svg>
             </div>
             <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Create Account</h2>
-            <p className="text-slate-500 mt-2 font-medium">Join PrimeTrade Analytics</p>
+            <p className="text-slate-500 mt-2 font-medium">Join Synapse Analytics</p>
         </div>
         <form onSubmit={onSubmit} className="space-y-4">
           <input type="text" placeholder="Full Name" className="w-full p-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:bg-white focus:border-blue-500 outline-none font-semibold" onChange={e => setFormData({...formData, name: e.target.value})} required />
